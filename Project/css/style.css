@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: end;
+
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-inline-end: 20px;
+}
+a{
+    text-decoration:none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-inline-size: 1300px;
+    margin: auto;
+    padding: 25px;
+    padding-inline-end: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col2{
+    flex-basis: 50%;
+    min-inline-size: 300px;
+
+}
+.col2 img{
+    max-inline-size: 100%;
+    padding: 50px 0;
+     
+      
+}
+.btn{
+    display: inline-block;
+    background: #f72d13;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background:#563434;
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+
+}
+.logo img{
+    border-radius: 30px;
+}
+.header row{
+margin-block-start: 70px;
+}
+.categories{
+    margin: 70px 0;
+}
+.col3{
+    flex-basis: 30%;
+    min-inline-size: 250px;
+    margin-block-end: 30px;
+    transition: transform 0.5s;
+}
+.col3 img{
+    inline-size: 100%;
+}
+.col3:hover{
+    transform: translate(3px);
+}
+.small-container{
+    max-inline-size: 1080px;
+    margin: auto;
+    padding-inline-start: 25px;
+    padding-inline-end: 25px;
+
+}
+ 
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-inline-size: 200px;
+    margin-block-end: 50px;
+    transition: transform 0.5s;
+     
+   
+}
+.col-4 img{
+    inline-size: 100%;
+    
+}
+.rating {
+    margin-block-start: 20px;
+    font-size: 24px;
+}
+.rating{
+    color: orangered
+
+}
+.col-4:hover{
+    transform: translate(3px);
+}
+.title1{
+    text-align: center;
+
+    
+
+}
+.title1{
+    margin-block-start: 5%;
+    padding: 25px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title2{
+    text-align: center;
+    margin: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.col-5{
+    flex-basis: 25%;
+    padding: 10px;
+    min-inline-size: 200px;
+    margin-block-end: 50px;
+    transition: transform 0.5s
+}
+.col-5:hover{
+    transform: translate(3px);
+}
+.col-5 img{
+    width: 100%;
+}
+.img{
+    transition: brightness 0.3s ease;
+}
+ .img:hover{
+    filter: brightness(1.4);
+ }
+ .col-5:img{
+    transition:brightness 0.3s ease;;
+ }
+ .col-5 img:hover{
+    filter: brightness(1.4);
+ }
+ .col-4:img{
+    transition:brightness 0.3s ease;;
+ }
+ .col-4 img:hover{
+    filter: brightness(1.1);
+ }
+  
+ 
+  .container{
+    padding-top: 100px;
+
+  }
+  .container .col-4{
+    padding-top: 40px 20px;
+    text-align: center;
+     
+    box-shadow:  0 0 20px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+
+    
+  }
+  .container .col-4 img{
+     width: 50px;
+     margin-top: 20px;
+     border-radius: 50%;
+    
+  }
+  .container .col-4:hover{
+   transform: translate(-10px);
+  }
+  .fa.fa-quote-left{
+    font-size: 30px;
+    color: orange;
+  }
+  .container .col-4 p{
+    font-size: 14px;
+    color: gray;
+  }
+  .container .col-4 h3{
+    font-weight: 600;
+    font-size: 18px;
+    color: #555;
+  }
+  .container{
+    margin: 100px auto;
+
+  }
+  .col-3{
+    cursor: pointer;
+    filter: grayscale(100%);
+  }
+  .col-3:hover{
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  .footer{
+    background-color: black;
+    color: #f72d13;
+    font-size: 14px;
+    padding: 60px 0 20px;
+  }
+  .footer p{
+    color: #fff;
+  }
+  .footer h3{
+    color: white;
+    margin-bottom: 20px;
+
+  }
+   .footer .col-11 .col-12 .col-13 .col-19{
+    min-width: 250px;
+    margin-bottom: 20px;
+
+
+  }
+  .footer .col-11{
+    flex-basis: 30%;
+
+  }
+  ..footer .col-12{
+    flex: 1;
+    text-align: center;
+
+  }
+  ..footer .col-12 img{
+    width: 180px;
+    margin-bottom: 20px;
+  }
+  .footer .col-13,footer.col-19{
+flex-basis: 12%;
+text-align: center;
+color: white;
+  }
+  ul{
+    list-style: none;
+  }
+  .alogo{
+    margin-top: 20px;
+  }
+  .alogo img{
+    width: 100px;
+  }
+  .footer hr{
+    border: none;
+    background: white;
+    height: 1px;
+    margin: 20px 0;
+  }
+  .cp{
+    text-align: center;
+  }
+  .footer .col-19{
+    color: white;
+  }
+.ro-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}  
