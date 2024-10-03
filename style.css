@@ -10,7 +10,10 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
+.gk-class{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 .nav-link {
   color: #000;
   margin-right: 20px;
@@ -31,7 +34,10 @@ body {
   font-weight: bold;
   margin-bottom: 20px;
 }
-
+.test {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 .text-section .highlight {
   color: #f4c200;
   border-bottom: 3px solid #f4c200;
@@ -93,7 +99,10 @@ body {
 .info-icon img {
   width: 60px;
 }
-
+.test-2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 .info-section h4 {
   margin-top: 20px;
   font-size: 1.5rem;
@@ -143,15 +152,19 @@ p {
   font-weight: bold; /* Bold the text below icons */
 }
 
-.container {
+/* .container {
   padding-top: 50px;
-}
+} */
 
-.btn-primary {
+/* .btn-primary {
   background-color: #007bff;
   border: none;
-}
+} */
 
-.btn-primary:hover {
+/* .btn-primary:hover {
   background-color: #0056b3;
+} */
+.indra {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
