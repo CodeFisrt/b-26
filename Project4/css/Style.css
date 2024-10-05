@@ -1,0 +1,26 @@
+  
+ .col-12 img{
+    width: 250px;
+    height: 200px;
+ }
+ ul li{
+    list-style: none;
+ }
+ .anchor{
+    display: flex;
+    display: inline;
+    margin: 10px;
+   
+   } 
+   .col-2 a{
+        text-decoration: none;
+    }
+    .col-6 a{
+        text-decoration: none;
+    }
+    .col-12 a{
+        text-decoration: none;
+    }
+     
+    
+    
